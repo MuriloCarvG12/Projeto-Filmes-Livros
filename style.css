@@ -18,6 +18,137 @@ body
 
 
 /***Pagina home***/
+.presentation
+{
+    height: 400px;
+    width: 1500px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.home-body-header
+{
+    height: 200px;
+    width: 1600px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.link-container-background
+{
+    width: 1500px;
+    height: 600px;
+    padding: 50px;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 100px;
+    background-color: white;
+    
+    
+}
+.link-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+.link-livros
+{
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #df9204;
+    background-image: url(book-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-livros-titulo
+{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fde05f;
+
+}
+
+.link-livros button
+{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #d88921;
+    background-color: #ffaf46;
+}
+
+.link-livros button:hover
+{
+    background-color: #eba242;
+    width: 210px;
+    height: 110px;
+}
+
+.link-filmes
+{
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #df9204;
+    background-image: url(movie-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.link-filmes-titulo
+{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #ff9900;
+
+}
+
+.link-filmes button
+{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #d65f1a;
+    background-color: #fa8b58;
+}
+
+.link-filmes button:hover
+{
+    background-color: #e77f4f;
+    width: 210px;
+    height: 110px;
+}
+
+
+.contacts
+{
+    height: 400px;
+    width: 1500px;
+    background-color: white;
+    margin-bottom: 40px;
+    
+}
+
 
 /**Header**/
 

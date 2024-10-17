@@ -9,16 +9,29 @@ const card = document.getElementById('elemento')
 const body = document.createElement('div')
 body.classList.add('card-body')
 
+/// header
+const header = document.createElement('div')
+header.classList.add('card-header')
+
+/// elements div
+
+const elements = document.createElement('div')
+elements.classList.add('card-elements')
+
 ////// title
 const title = document.createElement('h1')
+
 title.innerText = livro.Nome
 
 ////// description
 const autor = document.createElement('p')
-autor.innerText = livro.Autor
+autor.innerText = 'Autor: ' + livro.Autor
+autor.classList.add('card-text')
 
 const value = document.createElement('p')
-value.innerText = livro.Valor
+value.innerText = 'Preço: ' + ' R$ ' + livro.Valor
+value.classList.add('card-text')
+
 //////image
 
 const image = document.createElement('img')
@@ -47,11 +60,17 @@ button_delete.onclick = () => deletalivro(livro.id)
 div_buttons.append(button_view)
 div_buttons.append(button_edit)
 div_buttons.append(button_delete)
+header.append(title)
 
-body.append(title)
-body.append(autor)
-body.append(value)
-body.append(div_buttons)
+
+body.append(header)
+
+elements.append(autor)
+elements.append(value)
+elements.append(div_buttons)
+
+body.append(elements)
+
 card.append(body)
 
 });

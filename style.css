@@ -1,5 +1,8 @@
+
+
 body
 {
+   
     margin: 0px;
     padding: 0px;
     background-image: url('bg.jpg');
@@ -61,6 +64,18 @@ body
     background-color: #eeeeee;
     
     
+}
+.about-container-background
+{
+    width: 1600px;
+    height: 500px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e9c38b;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
 }
 .link-container
 {
@@ -159,13 +174,33 @@ body
 
 .contacts
 {
-    height: 600px;
-    width: 1500px;
+    width: 1600px;
+    height: 500px;
     background-color: white;
-    margin-bottom: 40px;
+    justify-content: center;
+    
+    
+    padding-right: 40px;
+}
+.contacts-text
+{
+    text-align: center;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 40px;
+    
     
 }
-
+.contacts-title
+{
+    margin: 0 auto;
+    width: 600px;
+    height: 50px;
+    background-color: #ffdd99;
+    align-self: center;
+    
+}
 
 /**Header**/
 
@@ -178,6 +213,14 @@ body
     justify-content: space-evenly;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    padding-bottom: 10px;
+}
+.header-title
+{
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 40px;
 }
 .header-links 
 {
@@ -188,9 +231,9 @@ body
 }
 .header-links li
 {
-    background-color: aqua;
+    background-color: #f07744;
     height: 80px;
-    width: 120px;
+    width: 150px;
     padding: 5px;
     align-items: center;
     align-content: center;
@@ -201,37 +244,63 @@ body
 .header-links-button
 {
     padding: 20px;
-    width: 100px;
+    width: 130px;
     height: 60px;
-    margin-left: 8px;
+    margin-left: 10px;
     text-align: center;
     border-color: #c97148;
+    background-color: #ff8855;
     cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
 }
-.header-links-button button:hover
+.header-links-button:hover
 {
-    width: 110px;  
+    width: 135px;  
     height: 70px;  
+    background-color: #db7549;
 }
 
 /**Cards livros**/
 .card-body
 {
+    
     height: 450px;
     width: 380px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 20px;
-    padding: 10px;
+    
     border-style: solid;
     border-width: 1px;
-    border-radius: 20px;
-    
+    border-radius: 40px;
 }
-
+.card-header
+{
+    width: 380px;
+    height: 50px;
+    background-color: #d6e4b3;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card-elements
+{
+    height: 450px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-text
+{
+    font-size: large;
+    font-weight: 600;
+}
 .buttons-row
 {
     display: flex;
@@ -242,14 +311,30 @@ body
 {
     width: 100px;
     height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #554444;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #a4c8f7;
+}
+
+.buttons-row button:hover
+{
+    width: 110px;
+    height: 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #554444;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #92b2db;
 }
 
 /** pagina formulario **/
 
 .form-body
 {
-    
-   
     padding: 0px;
     margin: 0px;
     width: 50%;
@@ -287,6 +372,7 @@ body
 {
     width: 100px;
     height: 100px;
+    
 }
 .form-item
 {

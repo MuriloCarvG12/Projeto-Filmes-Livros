@@ -204,9 +204,10 @@ body
 {
     margin: 0 auto;
     text-align: center;
-    font-size: larger;
+    font-size: medium;
     text-align: center;
-    font-weight: bold;
+    font-weight:bolder;
+    
     color: white;
     
 }
@@ -214,13 +215,18 @@ body
 {
     display: flex;
     width: 350px;
-    height: 40px;
+    height: 50px;
     background-color: #0000ff;
     align-self: center;
     padding-top: 400;
     align-items: center;
-   
-    
+}
+.about-desc
+{
+    text-align: center;
+    color: rgb(235, 237, 243);
+    font-weight: 600;
+    font-size: medium;
 }
 
 /**Header**/
@@ -232,8 +238,11 @@ body
     background-color: #79a9f5;
     display: flex;
     justify-content: space-evenly;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #051e49;
     padding-bottom: 10px;
 }
 .header-bg

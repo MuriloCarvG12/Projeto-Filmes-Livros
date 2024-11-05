@@ -298,6 +298,42 @@ body
 }
 
 /**Cards livros**/
+.page-head
+{
+    margin-top: 20px;
+    width: 40%;
+    height: 140px;
+    background-color: #4b7bf5;
+    justify-items: center;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-style: solid;
+    border-color: #051e49;    
+}
+
+.page-head-button
+{
+    
+    width: 150px;
+    height: 50px;
+    background-color: #c2e2f5;
+    border-style: none;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    color: #4b7bf5;
+    font-weight: bold;
+    font-size: large;
+}
+.page-head-button:hover
+{
+    
+    cursor: pointer;
+    align-self: center;
+    color: #436edd;
+    background-color: #a9cadd;
+    width: 155px;
+    height: 55px;
+}
 .card-body
 {
     
@@ -317,9 +353,9 @@ body
 {
     width: 380px;
     height: 50px;
-    background-color: #d6e4b3;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    background-color: #4b7bf5;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
     text-align: center;
     padding-bottom: 10px;
 }

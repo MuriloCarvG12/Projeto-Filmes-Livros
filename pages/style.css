@@ -1,0 +1,297 @@
+
+
+body
+{
+   
+    margin: 0px;
+    padding: 0px;
+    background-color: #333A44;
+    
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/***Pagina home***/
+.presentation
+{
+    margin-top: 100px;
+    width: 1200px;
+    height: 500px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentation-bg
+{
+    width: 1200px;
+    height: 500px;
+    opacity: 0.2;
+    background-image:  -webkit-linear-gradient(left, rgba(51, 58, 68, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 50%, rgba(51, 58, 68, 1) 100%), url(home-bg.jpg);
+    position:absolute;
+    
+}
+.presentation-text p
+{
+    
+    color: rgb(255, 255, 255);
+    justify-content: center; 
+    font-size: large;
+    font-weight: 600;
+    
+    opacity: 1;
+}
+
+
+.home-body-header
+{
+    color: #ffffff;
+    height: 100px;
+    width: 994px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #04163544;
+    background-color: #04163544;
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.link-container-background
+{
+    width: 1000px;
+    height: 600px;
+    
+    
+    margin-bottom: 100px;
+    background-color: #0000002c;
+}
+
+.link-container
+{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+}
+.link-livros
+{
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7391c8;
+    background-image: url(book-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-livros-titulo
+{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #7391c8;
+
+}
+
+.link-livros button
+{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #c9c7e3;
+    background-color: #79a9f5;
+    margin-bottom: 10px;
+}
+
+.link-livros button:hover
+{
+    border-color: #afadca;
+    background-color: #668fd1;
+    width: 210px;
+    height: 110px;
+}
+
+.link-filmes
+{
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #df9204;
+    background-image: url(movie-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.link-filmes-titulo
+{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #ff9900;
+
+}
+
+.link-filmes button
+{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #c97148;
+    background-color: #fa8b58;
+    margin-bottom: 10px
+}
+
+.link-filmes button:hover
+{
+    background-color: #e77f4f;
+    width: 210px;
+    height: 110px;
+}
+.about-container-background
+{
+    width: 1000px;
+    height: 700px;
+    background-color: #0000002c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-items
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px
+}
+.about-item
+{
+    
+    width: 350px;
+    height: 300px;
+    background-color: rgba(7, 6, 34, 0.158);
+    margin-bottom: 20px;
+}
+.about-text
+{
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+    text-align: center;
+    font-weight:bolder;
+    
+    color: white;
+    
+}
+.about-title
+{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    background-color: #0000ff;
+    align-self: center;
+    padding-top: 400;
+    align-items: center;
+}
+.about-desc
+{
+    text-align: center;
+    color: rgb(216, 226, 255);
+    font-weight: 500;
+    font-size: medium;
+}
+
+/**Header**/
+
+.header-body
+{
+    height: 150px;
+    width: 100%;
+    background-color: #79a9f5;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #051e49;
+    padding-bottom: 10px;
+}
+
+.header-title
+{
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    
+    width: 100%;
+    
+}
+.header-links 
+{
+    display: flex;
+    justify-content: space-between;
+    width: "100%";
+    gap: 30px;
+    
+}
+.header-links li
+{
+    
+    
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    border-radius: 20px;
+}
+
+.header-links-button
+{
+    
+    width: 130px;
+    height: 60px;
+    align-self: center;
+    
+    border-color: #242e2d;
+    border-style: solid;
+    background-color: #91affc;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+.header-links-button:hover
+{
+    width: 150px;  
+    height: 68px;  
+    background-color: #a1bbfc;
+}
+
+

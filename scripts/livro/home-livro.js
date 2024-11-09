@@ -2,6 +2,10 @@ document.addEventListener('DOMContentLoaded', load_page)
 
 function load_page(){
 let lista = JSON.parse(localStorage.getItem('Produtos'))
+if(lista === null)
+    {
+        lista = []
+    }
 
 lista.forEach(livro => {
 const card = document.getElementById('elemento')

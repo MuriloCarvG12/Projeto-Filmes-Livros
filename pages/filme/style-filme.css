@@ -94,12 +94,12 @@ body
     margin-top: 20px;
     width: 40%;
     height: 140px;
-    background-color: #4b7bf5;
+    background-color: #f8a677;
     justify-items: center;
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
     border-style: solid;
-    border-color: #051e49;    
+    border-color: #492b05;    
 }
 
 .page-head-button
@@ -107,11 +107,11 @@ body
     
     width: 150px;
     height: 50px;
-    background-color: #c2e2f5;
+    background-color: #f18a5e;
     border-style: none;
     margin-bottom: 40px;
     border-radius: 40px;
-    color: #4b7bf5;
+    color: #d83b0b;
     font-weight: bold;
     font-size: large;
 }
@@ -120,12 +120,104 @@ body
     
     cursor: pointer;
     align-self: center;
-    color: #436edd;
-    background-color: #a9cadd;
+    color: #c93b0f;
+    background-color: #db7c53;
     width: 155px;
     height: 55px;
 }
 
+/** pagina formulario **/
+.form-filme-head
+{
+    margin-top: 30px;
+    width: 30%;
+    height: 100%;
+    background-color: #f8a677;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #8a5106;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    text-align: center;
+    color: white;
+}
+.form-filme-body
+{
+    padding: 0px;
+    margin: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: #0000002c; 
+    border-style: solid;
+    border-width: 4px;
+    border-color: #8a5106;
+}
+.form-fields
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+.form-fields input
+{
+    width: 100%;
+    border-style: none;
+    border-radius: 20px;
+    
+}
+.form-item-name
+{
+    color: white;
+    font-weight: 500;
+    height: 100%;
+    width: 30%;
+    background-color: #f8a677;
+    text-align: center;
+    align-content: center;
+}
+.form-fields button
+{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    background-color: #f7945b;
+    border-style: none;
+    color: #e64d06;
+    font-weight: 900;
+    font-size: medium;
+}
+.form-fields button:hover
+{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    background-color: #e0844e;
+    border-style: none;
+    color: #c74306;
+    font-weight: 900;
+    font-size: medium;
+}
+
+
+.form-item
+{
+    gap: 10px;
+    height: 30px;
+    width: 50%;
+    background-color: #f8a677;
+    border-style: solid;
+    border-color: #f8a677;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
 
 
 

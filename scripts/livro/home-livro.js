@@ -16,7 +16,10 @@ body.classList.add('card-body')
 /// header
 const header = document.createElement('div')
 header.classList.add('card-header')
+/// footer 
 
+const footer = document.createElement('div')
+footer.classList.add('card-footer')
 /// elements div
 
 const elements = document.createElement('div')
@@ -39,7 +42,10 @@ value.classList.add('card-text')
 //////image
 
 const image = document.createElement('img')
-
+image.src = livro.Imagem
+image.height = 200
+image.width = 200
+image.classList.add('card-text')
 
 ////// buttons
 const div_buttons = document.createElement('div')
@@ -51,31 +57,36 @@ button_view.onclick = () => window.location.href = "detalhes-livro.html?id=" + l
 
 
 const button_edit = document.createElement('button')
-button_edit.innerText = 'editar'
+button_edit.innerText = 'Editar'
 button_edit.onclick = () => window.location.href = "editar-livro.html?id=" + livro.id
 
 const button_delete = document.createElement('button')
-button_delete.innerText = 'deletar'
+button_delete.innerText = 'Deletar'
 button_delete.onclick = () => deletalivro(livro.id)
 
 //////
 
-
+/// adiciona os botoes para o div buttons e adiciona o div buttons para footer
 div_buttons.append(button_view)
 div_buttons.append(button_edit)
 div_buttons.append(button_delete)
+footer.append(div_buttons)
+
+/// adicona as informações para os elementos que formarao o card
 header.append(title)
 
-
-body.append(header)
-
+elements.append(image)
 elements.append(autor)
 elements.append(value)
-elements.append(div_buttons)
+
+// adiciona elementos ao corpo do card
+body.append(header)
 
 body.append(elements)
 
 card.append(body)
+
+card.append(footer)
 
 });
 }

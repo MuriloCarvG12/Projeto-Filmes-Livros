@@ -9,25 +9,41 @@ lista.forEach(livro => {
 
     if(idUrl == livro.id)
     {
+        document.getElementById('page-head-book-title').innerText = livro.Nome
+
         const body = document.getElementById('elemento')
 
+        const imagem = document.createElement('img')
+        imagem.src = livro.Imagem
+        imagem.height = 200
+        imagem.width = 200
+        
+
         const nome = document.createElement('h2')
-        nome.innerText = "Nome: " + livro.Nome
+        nome.innerText =  livro.Nome
+        nome.classList.add('page-detalhes-livro-body-item-title')
 
         const autor = document.createElement('p')
         autor.innerText = "Autor: " + livro.Autor
+        autor.classList.add('page-detalhes-livro-body-item')
 
 
 
         const description = document.createElement('p')
         description.innerText = "Descrição: " + livro.Descricao
+        description.classList.add('page-detalhes-livro-body-item')
 
         const preco = document.createElement('p')
         preco.innerText = "Preco: " + livro.Valor
+        preco.classList.add('page-detalhes-livro-body-item')
 
+        
         body.append(nome)
+        body.append(imagem)
+        body.append(autor)
         body.append(description)
         body.append(preco)
+
 
     }
 });

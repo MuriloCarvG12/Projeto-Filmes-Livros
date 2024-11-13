@@ -11,12 +11,15 @@ lista.forEach(livro => {
     {
         document.getElementById('page-head-book-title').innerText = livro.Nome
 
+        
         const body = document.getElementById('elemento')
+        const header = document.getElementById('elemento-header')
 
         const imagem = document.createElement('img')
         imagem.src = livro.Imagem
-        imagem.height = 200
-        imagem.width = 200
+        imagem.height = 300
+        imagem.width = 300
+        
         
 
         const nome = document.createElement('h2')
@@ -38,7 +41,7 @@ lista.forEach(livro => {
         preco.classList.add('page-detalhes-livro-body-item')
 
         
-        body.append(nome)
+        header.append(nome)
         body.append(imagem)
         body.append(autor)
         body.append(description)

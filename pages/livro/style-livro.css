@@ -593,3 +593,74 @@ body
     background-color: #6a97df;
     border-radius: 20px;
 }
+
+/** pagina editar livro**/
+.page-editar-livro-body
+{
+    justify-items: center;
+}
+.form-editar-livro-body
+{
+    margin-top: 30px;
+    gap: 50px;
+    justify-items: center;
+    width: 30%;
+    height: 500px;
+    background-color: #0000002c; 
+    border-style: solid;
+    border-width: 4px;
+    border-color: #051e49;  
+}
+.form-editar-livro-item
+{
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgba(47, 74, 228, 0.527);
+    border-radius: 40px;
+    align-content: center;
+    
+}
+.form-editar-livro-item-group
+{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    margin-left: 20px;
+    background-color: #436edd; 
+    padding: 10px;
+    border-radius: 20px;
+}
+.form-editar-livro-item-label
+{
+   font-weight: 600;
+   color: #abcde0;
+}
+.form-editar-livro-button
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 40px;
+    background-color: #779af3;
+    border-style: none;
+    color: #dad7ff;
+    font-weight: 900;
+    font-size: medium;
+}
+.form-editar-livro-button:hover
+{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    background-color: #6a89da;
+    border-style: none;
+    color: #c6c3e9;
+    font-weight: 900;
+    font-size: medium;
+}

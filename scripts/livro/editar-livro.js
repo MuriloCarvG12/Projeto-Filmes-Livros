@@ -11,6 +11,10 @@ lista.forEach(livro => {
 
     if(idUrl == livro.id)
     {
+
+    let title = document.getElementById('page-editar-livro-head')
+    title.innerText = livro.Nome
+
     let nome = document.getElementById('Nome-Produto')
     nome.placeholder = livro.Nome
 

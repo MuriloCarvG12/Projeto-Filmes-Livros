@@ -103,6 +103,37 @@ function form(event)
         lista.push(Produto)
 
         const Produto_Salvo = localStorage.setItem('ProdutosFilme', JSON.stringify(lista))
+
+
+        const body = document.getElementById('container')
+
+        const sucess_body = document.createElement('div')
+
+        
+
+        sucess_body.classList.add('sucess_body')
+
+        const success_text = document.createElement('h1')
+
+        success_text.innerText = 'Filme cadastrado com sucesso!'
+        success_text.style.color = '#e64d06'
+
+        const sucess_button = document.createElement('button')
+
+        sucess_button.classList.add('sucess_button')
+
+        sucess_button.innerText  = 'Voltar para a tela home!'
+        
+        sucess_button.addEventListener('click', () => {window.location='./home-filme.html'})
+
+        
+        sucess_body.append(success_text)
+        sucess_body.append(sucess_button)
+
+        body.append(sucess_body)
+        
+        
+
     }
 
 

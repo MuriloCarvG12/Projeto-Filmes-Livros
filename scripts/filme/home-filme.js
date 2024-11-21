@@ -58,7 +58,7 @@ button_view.onclick = () => window.location.href = "detalhes-livro.html?id=" + f
 
 const button_edit = document.createElement('button')
 button_edit.innerText = 'Editar'
-button_edit.onclick = () => window.location.href = "editar-livro.html?id=" + filme.id
+button_edit.onclick = () => window.location.href = "editar-filme.html?id=" + filme.id
 
 const button_delete = document.createElement('button')
 button_delete.innerText = 'Deletar'

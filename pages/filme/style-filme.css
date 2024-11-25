@@ -86,7 +86,7 @@ body
 {
     
     justify-items: center;
-   
+    margin-bottom: 20px;   
 }
 
 .page-head
@@ -216,8 +216,47 @@ body
     cursor: pointer;
     background-color:  #ce9780;
 }
+/** os mesmos metodos que funcionaram no outro botao salvar da pagina home-livro nao funcionam aqui por algum motivo! porque?**/
+.pagefilme-save-button
+{
+    
+    color: rgb(253, 241, 228);
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    margin-left: 45%;
+    font-weight: bold;
+    width: 230px;
+    height: 80px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #75572a;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #f0b196;
+}
 
-
+.pagefilme-save-button:hover
+{
+    color: rgb(253, 241, 228);
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 230px;
+    height: 80px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #75572a;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #ce9780;
+}
 
 /** pagina formulario **/
 .form-filme-head

@@ -62,7 +62,7 @@ button_edit.onclick = () => window.location.href = "editar-filme.html?id=" + fil
 
 const button_delete = document.createElement('button')
 button_delete.innerText = 'Deletar'
-button_delete.onclick = () => deletalivro(filme.id)
+button_delete.onclick = () => deletafilme(filme.id)
 
 //////
 
@@ -137,18 +137,26 @@ body.append(div_buttons)
 card.append(body)
 }
 
-function deletalivro(id)
+function deletafilme(id)
 {
     console.log(id)
     let filmes = JSON.parse(localStorage.getItem('ProdutosFilme'))
-    let filmes_filtrados = (filme.filter(filme => filme.id !== id))
+    let filmes_filtrados = (filmes.filter(filme => filme.id !== id))
     localStorage.setItem('ProdutosFilme', JSON.stringify(filmes_filtrados))
     location.reload()
-    
-        
-    
-    
-        
-   
-    
+}
+
+function salvarfilmes()
+{
+    let lista_filmes_salvar = JSON.stringify(localStorage.getItem('ProdutosFilme'))       
+
+    var fileName = "filmes_salvos.txt";
+    var fileContent = lista_filmes_salvar
+    var myFile = new Blob([fileContent], {type: 'text/plain'});
+
+    window.URL = window.URL || window.webkitURL;
+    var dlBtn = document.getElementById("download");
+
+    dlBtn.setAttribute("href", window.URL.createObjectURL(myFile));
+    dlBtn.setAttribute("download", fileName);
 }

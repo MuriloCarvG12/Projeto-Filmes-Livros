@@ -144,11 +144,19 @@ function deletalivro(id)
     let livros_filtrados = (livros.filter(livro => livro.id !== id))
     localStorage.setItem('Produtos', JSON.stringify(livros_filtrados))
     location.reload()
-    
-        
-    
-    
-        
-   
-    
+}
+
+function salvarlivros()
+{
+    let lista_livros_salvar = JSON.stringify(localStorage.getItem('Produtos'))       
+
+    var fileName = "livros_salvos.txt";
+    var fileContent = lista_livros_salvar
+    var myFile = new Blob([fileContent], {type: 'text/plain'});
+
+    window.URL = window.URL || window.webkitURL;
+    var dlBtn = document.getElementById("download");
+
+    dlBtn.setAttribute("href", window.URL.createObjectURL(myFile));
+    dlBtn.setAttribute("download", fileName);
 }

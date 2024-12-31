@@ -6,10 +6,11 @@ Key Features:
 📚 Dedicated Pages for Books and Movies
 
     Books Section: Browse through a vast collection of books, add new titles to your library, and keep detailed records including author, genre, publication date, and personal ratings.
-![Captura de Tela (26)](https://github.com/user-attachments/assets/2bcf7e49-95e3-4b0c-b775-cedd84d15ef3)
+![Captura de Tela (27)](https://github.com/user-attachments/assets/488850fd-d835-472c-ae30-1f1652244a93)
 
     Movies Section: Explore a comprehensive movie database where you can add films to your watchlist, complete with details like director, genre, release year, and your own ratings!
-![Captura de Tela (27)](https://github.com/user-attachments/assets/488850fd-d835-472c-ae30-1f1652244a93)
+![Captura de Tela (26)](https://github.com/user-attachments/assets/2bcf7e49-95e3-4b0c-b775-cedd84d15ef3)
+
 
 ✏️ Add, Edit, and Delete Entries
 

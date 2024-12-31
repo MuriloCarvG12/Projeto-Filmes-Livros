@@ -1,12 +1,14 @@
 Welcome to [YourWebsiteName], Your Ultimate Hub for Books and Movies!
+https://github.com/MuriloCarvG12/Projeto-Filmes-Livros/blob/main/readme%20images/Captura%20de%20Tela%20(28).png?raw=true
 
 Discover a smarter way to manage your entertainment with [YourWebsiteName], the all-in-one platform designed to help you save, organize, and enjoy your favorite books and movies effortlessly. Whether you’re a passionate reader, a cinephile, or someone who loves both, [YourWebsiteName] provides the perfect solution to keep track of what you want to explore next.
 Key Features:
 📚 Dedicated Pages for Books and Movies
 
     Books Section: Browse through a vast collection of books, add new titles to your library, and keep detailed records including author, genre, publication date, and personal ratings.
-    Movies Section: Explore a comprehensive movie database where you can add films to your watchlist, complete with details like director, genre, release year, and your own ratings.
-
+    https://github.com/MuriloCarvG12/Projeto-Filmes-Livros/blob/main/readme%20images/Captura%20de%20Tela%20(26).png
+    Movies Section: Explore a comprehensive movie database where you can add films to your watchlist, complete with details like director, genre, release year, and your own ratings!
+    https://github.com/MuriloCarvG12/Projeto-Filmes-Livros/blob/main/readme%20images/Captura%20de%20Tela%20(27).png
 
 ✏️ Add, Edit, and Delete Entries
 
